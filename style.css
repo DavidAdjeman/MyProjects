@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-content {
+    background-color: hsl(212, 45%, 89%);
+    height: 100vh;
+    max-width: 100%;
+}
+
+.qrbox {
+    background-color: #ffffff;
+    height: 575px;
+    width: 374px;
+    border-radius: 13px;
+    position: relative;
+    top: 10vh;
+    left: 38.5%;
+    right: 0;
+    bottom: 0;
+
+}
+
+.qrbox img {
+    border: none;
+    border-radius: 10px;
+    height: 300px;
+    width: 334px;
+    margin-bottom: 20px;
+    position: relative;
+    left: 19px;
+    top: 19px;
+}
+
+.text {
+    /*border: 1px solid black; */
+    height: 150px;
+    width: 300px;
+    padding: 30px 34px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+p {
+    color: hsl(220, 15%, 55%)
+}
